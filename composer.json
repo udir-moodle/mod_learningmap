@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/mod_learningmap",
+  "description": "Learning map — Composer/Packagist mirror of the Moodle plugin mod_learningmap, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-mod",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/mod_learningmap",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "4.5.* || 5.0.* || 5.1.*"
+  },
+  "extra": {
+    "installer-name": "learningmap",
+    "moodle-composer": {
+      "component": "mod_learningmap"
+    }
+  }
+}
